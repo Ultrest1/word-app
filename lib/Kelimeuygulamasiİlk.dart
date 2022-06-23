@@ -34,7 +34,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
           type: BottomNavigationBarType.fixed,
           selectedItemColor: Colors.white,
           unselectedItemColor: Colors.white70,
-          backgroundColor: Colors.lime,
+          backgroundColor: Colors.orange,
           iconSize: 30,
           currentIndex: currentIndex,
           showUnselectedLabels: false,
