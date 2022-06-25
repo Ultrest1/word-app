@@ -1,4 +1,4 @@
-import 'package:deneme12/ekleme%20sayfasi.dart';
+import 'package:deneme12/firebase.dart';
 import 'package:flutter/material.dart';
 
 class GirisSayfasi extends StatefulWidget {
@@ -13,7 +13,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
   final screens = [
     Center(
         child: Text(
-      "home",
+      "eklemeSayfasi",
       style: TextStyle(fontSize: 60),
     )),
     Center(
@@ -42,7 +42,7 @@ class _GirisSayfasiState extends State<GirisSayfasi> {
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: "home",
+              label: "ekle",
               backgroundColor: Colors.red,
             ),
             BottomNavigationBarItem(

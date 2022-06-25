@@ -36,10 +36,10 @@ class _eklemesayfasiState extends State<eklemesayfasi> {
             };
 
             await moviesRef.doc(nameController.text).set(movieData);
-            await moviesRef.doc(nameController.text).update({
-              "rating": 3.1,
-              "year": 2012
-            }); //update metodu set ile map in hepsi kullanılmadı
+            //  await moviesRef.doc(nameController.text).update({
+            // "rating": 3.1,
+            // "year": 2012
+            //   }); //update metodu set ile map in hepsi kullanılmadı
           },
         ),
         body: Container(
@@ -112,9 +112,7 @@ class _eklemesayfasiState extends State<eklemesayfasi> {
                               return Card(
                                 child: ListTile(
                                   title: Text(
-                                    "${listOfDocument[index].data() ?? [
-                                          "name"
-                                        ]}",
+                                    "${listOfDocument[index].data()}",
                                     style: TextStyle(
                                       fontSize: 24,
                                     ),

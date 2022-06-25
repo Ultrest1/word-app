@@ -1,4 +1,4 @@
-import 'package:deneme12/Kelimeuygulamasi%C4%B0lk.dart';
+import 'package:deneme12/kelimeEkle.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          body: GirisSayfasi(),
+          body: kelimeEkle(),
         ));
   }
 }
