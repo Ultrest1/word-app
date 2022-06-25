@@ -41,7 +41,9 @@ class _kelimeEkleState extends State<kelimeEkle> {
                             icon: Icon(
                               Icons.add,
                             ),
-                            onPressed: () {},
+                            onPressed: () {
+                              //add to
+                            },
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
